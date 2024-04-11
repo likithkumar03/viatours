@@ -1,0 +1,79 @@
+@import '../../App.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+      display: flex;
+      width: 100%;
+      height: 88px;
+      justify-content: center;
+      align-items: center;
+      
+    .logo{
+         display: flex;
+         width: 547px;
+         height: 44.13px;
+         gap: 50px;
+         justify-content: center;
+         align-items: center;
+
+         img{
+            width: 157px;
+            height: 32px;
+         }
+
+
+        .search{
+            width: 350px;
+            height: 44.13px;
+            border: none;
+            background: none;
+            display: flex;
+            align-items: center;
+          
+        }
+    }
+
+
+
+    .navlinks{
+        width: 593.5px;
+        height: 44px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+
+        .navmenu{
+            display: flex;
+            flex-direction: row;
+            gap: 45px;
+            justify-content: center;
+            align-items: center;
+
+
+            h3{
+                color: #05073C;
+                font-weight: 400;
+                font-size: 15px;
+
+            }
+
+            .btn-1{
+                background-color: #EB662B;
+                width: 84px;
+                height: 44px;
+                border: none;
+                border-radius: 50px;
+                color: white;
+                font-size: 15px;
+            }
+        }
+    }
+}
